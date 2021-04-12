@@ -581,6 +581,9 @@ input[type=email]{
     .custom-carousel-indicators-primary img{
         display:none;
     }
+    .hide-on-small{
+        display:none;
+    }
 
 }
 @media (max-width: 575px){
@@ -736,4 +739,72 @@ input[type=email]{
 .suggestions .custom-thumbnail{
     margin-right: -8px;
     margin-left: -8px;
+}
+/****************** checkout page ************************/
+.custom-table .custom-media img{
+    width:80px;
+    height: 80px;
+    border: 1px solid #EBEBEB;
+    margin-left: 10px;
+}
+.custom-table th, .custom-table td{
+    padding: 15px;
+    border-bottom: 1px solid #EBEBEB;
+    border-top: 1px solid #EBEBEB;
+    font-size: 20px;
+}
+.custom-table .custom-media h4{
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.custom-table th:first-child , .custom-table td:first-child{
+    width:50%;
+}
+.custom-table th{
+    color: #c2c2c2;
+    font-weight: normal;
+}
+.custom-table .quantity {
+    width: 56px;
+    height: 34px !important;
+    padding: 0px 8px;
+    text-align: center;
+    margin: 0 auto;
+}
+.custom-btn-danger{
+    color: #ff5a5f;
+    border-color: #ff5a5f;
+    background-color: transparent;
+    border-radius: 3px;
+}
+.custom-btn-danger:hover,
+.custom-btn-danger:active,
+.custom-btn-danger:focus,
+.custom-btn-danger:active:focus,
+.custom-btn-danger:active:hover{
+    color: #C2101E;
+    border-color: #C2101E;
+    background-color: transparent;
+}
+.custom-table .custom-media {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.custom-table th:first-child{
+    padding-right: 20px;
+}
+.custom-table tfoot td {
+    border-bottom: none;
+
+}
+.custom-table .total-price{
+    color: #000;
+}
+.custom-table .total-price .custom-text-muted{
+    color: #A9A9A9;
+}
+.rowsug{
+    font-size: 20px;
 }
