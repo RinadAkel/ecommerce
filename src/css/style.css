@@ -20,20 +20,7 @@ body  {
     padding-top: 15px; 
 	padding-bottom: 15px;
 }
-.custom-form-control, .custom-btn{
-    border: 1px solid #EBEBEB;
-    box-shadow: none;
-    border-radius: 2px;
-    font-size: 14px;
-    transition: all 0.3s ease;
-    padding: 6px 6px 6px 6px;
-    color: #868686;
-}
-.custom-btn:hover{
-    background-color: #d4d4d4 ;
-    border: 1px solid #BcBcBc;
-    color:#b86d07;
-}
+
 .categories .nav-link{
     border-right: 0;
 	border-radius: 0;
@@ -155,30 +142,7 @@ body  {
     font-size: 18px;
 	border-radius: 2px;
 }
-.sale {
-    background-color: #53ccd7;
-    color: white;
-    font-weight: bold;
-    position: absolute;
-  }
-  .sale.large {
-  height: 60px;
-  width:60px;
-  border-radius: 50%;
-  left:-15px;
-  top:-15px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  transform: rotate(-25deg);
-  font-size: 130%;
-  padding:35px;
-  line-height: 120%;
-  flex-direction: column;
-}
-#carousel-featured .product-details .sale.large span{
-    font-size: 14px;
-}
+
 #carousel-featured .product-details h1 {
     font-weight: 600;
     font-size: 160%;
@@ -293,16 +257,24 @@ h3.custom-heading {
 .custom-thumbnail .add-to-cart-btn:active:hover{
     color:#000;
 }
-.custom-thumbnail .sale {
-    padding: 5px 10px;
-    position: absolute;
-    left: 16px;
-    top: 14px;
-    direction: ltr;
+#carousel-featured .product-details .large span{
+    font-size: 14px;
 }
-.custom-thumbnail .sale::before{
-    content: '-';
-}
+
+ .custom-thumbnail .sale {
+        padding: 5px 10px;
+        position: absolute;
+        left: 16px;
+        top: 14px;
+        direction: ltr;
+    }
+    
+.custom-thumbnail .sale::before {
+        content: '-';
+    }
+    
+
+
 .custom-carousel-indicators>li{
     height: 13px;
     width: 13px;
@@ -331,20 +303,6 @@ h3.custom-heading {
 .custom-panel .product-image{
     width:100%;
     margin-bottom:8px;
-}
-.custom-btn-primary{
-    color:#F8AD47;
-    border-color: #F8AD47;
-    background-color:transparent;
-}
-.custom-btn-primary:hover,
-.custom-btn-primary:active,
-.custom-btn-primary:focus,
-.custom-btn-primary:active:focus,
-.custom-btn-primary:active:hover{
-    color:#b86d07;
-    border-color: #b86d07;
-    background-color:transparent;
 }
 .custon-panel h4, .custom-panel .price {
     font-size: 130%;
@@ -546,11 +504,7 @@ input[type=email], input[type="number"]{
 		line-height: 40px !important;
 		font-size: 20px !important;
     }
-    .ui-slider .ui-slider-handle {
-        height: 20px !important;
-        width: 20px !important;
-        top: -10px !important;
-    }
+    
     #form-subscription{
         margin-bottom: 40px;
     }
@@ -753,23 +707,10 @@ input[type=email], input[type="number"]{
     border: 1px solid #EBEBEB;
     margin-left: 10px;
 }
-.custom-table th, .custom-table td{
-    padding: 15px;
-    border-bottom: 1px solid #EBEBEB;
-    border-top: 1px solid #EBEBEB;
-    font-size: 120%;
-}
+
 .custom-table .custom-media h4{
     font-size: 18px;
     margin: 12px 0;
-}
-
-.custom-table th:first-child , .custom-table td:first-child{
-    width:50%;
-}
-.custom-table th{
-    color: #c2c2c2;
-    font-weight: normal;
 }
 .custom-table .quantity {
     width: 56px;
@@ -778,33 +719,13 @@ input[type=email], input[type="number"]{
     text-align: center;
     margin: 0 auto;
 }
-.custom-btn-danger{
-    color: #ff5a5f;
-    border-color: #ff5a5f;
-    background-color: transparent;
-    border-radius: 3px;
-}
-.custom-btn-danger:hover,
-.custom-btn-danger:active,
-.custom-btn-danger:focus,
-.custom-btn-danger:active:focus,
-.custom-btn-danger:active:hover{
-    color: #C2101E;
-    border-color: #C2101E;
-    background-color: transparent;
-}
+
 .custom-table .custom-media {
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;
 }
-.custom-table th:first-child{
-    padding-right: 20px;
-}
-.custom-table tfoot td {
-    border-bottom: none;
 
-}
 .custom-table .total-price{
     color: #000;
 }
@@ -863,15 +784,7 @@ input[type=email], input[type="number"]{
 .custom-list-group>.list-group-item:last-child{
     padding: 0 10px 0px 0;
 }
-.ui-slider {
-    margin: 25px 0 15px;
-    height: 2px !important;
-}
 
-.ui-slider .ui-slider-range{
-    border: 1px solid #F8AD47 !important;
-    top: -1px !important;
-}
 .custom-pagination li a {
     border: 1px solid #EBEBEB;
     width: 32px;
@@ -902,14 +815,7 @@ input[type=email], input[type="number"]{
 .custom-pagination {
     margin: 25px 0;
 }
-.ui-slider .ui-slider-handle {
-    background-color: #F8AD47 !important;
-    border: none !important;
-    border-radius :50% !important;
-    height: 12px !important;
-    width: 12px !important;
-    top: -6px !important;
-}
+
 /**************************** Contact Page *********************/
 #map {
     padding: 0;
